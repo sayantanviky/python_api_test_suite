@@ -1,0 +1,10 @@
+
+{
+  "weather": {
+    "base_url": "https://api.openweathermap.org",
+    "api_key": "5796abbde9106b7da4febfae8c44c232"
+  },
+  "users": {
+    "base_url": "https://jsonplaceholder.typicode.com"
+  }
+}
