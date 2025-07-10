@@ -35,9 +35,11 @@ PythonFrameworkAPI/
    pip install -r requirements.txt
 
 3. Run all tests:
+   ```bash
    pytest
    
 5. Run specific test:
+   ```bash
    pytest tests/test_weather_api.py
 
 ## Logging & Reports
@@ -52,9 +54,8 @@ pytest-html
 pytest-dependency
 
 You can install them via:
-bash
-Copy code
-pip install -r requirements.txt
+   bash
+      pip install -r requirements.txt
 
 ## Future Enhancements
  CI Integration (GitHub Actions, Jenkins)
