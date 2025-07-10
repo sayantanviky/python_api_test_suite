@@ -18,6 +18,11 @@ def setup_teardown():
     os.makedirs("logs",exist_ok=True)
     log_file = datetime.now().strftime("logs/test_run_%Y-%m-%d_%H-%M-%S.log")
 
+    # Clear previous handlers if any (important for Pytest)
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    # Configure logging
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [$(levelname)s] %(message)s",
