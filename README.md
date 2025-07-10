@@ -1,5 +1,5 @@
 # Python API Test Automation Framework
-This project is a robust **Pytest-based API automation framework** built in Python.  
+Hi this is Sayantan Mukherjee. Thank you for visiting to my GitHub repository. This project is a robust **Pytest-based API automation framework** built in Python.  
 It supports parameterized testing, JSON-based data management, logging, and dynamic HTML report generation.
 
 ## Project Structure
