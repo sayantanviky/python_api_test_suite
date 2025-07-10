@@ -64,3 +64,8 @@ pip install -r requirements.txt
 
 ## Contributing
 Feel free to raise issues or PRs for improvements, bug fixes, or new test scenarios.
+
+## Author
+Name: Sayantan Mukherjee
+GitHub: https://github.com/sayantanviky
+LinkedIn: https://www.linkedin.com/in/sayantan-mukherjee-9975b3b7
