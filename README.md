@@ -54,8 +54,9 @@ pytest-html
 pytest-dependency
 
 You can install them via:
-   bash
+   ```bash
       pip install -r requirements.txt
+```
 
 ## Future Enhancements
  CI Integration (GitHub Actions, Jenkins)
